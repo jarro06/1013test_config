@@ -1,8 +1,8 @@
 generalInformation:
   serviceAdminEmail: jarro06@gmail.com
   gheUsername: jarro06
-  billingAccount: "213"
-  billingTeamName: "231"
+  billingAccount: "321"
+  billingTeamName: "321"
   gheToken: ""
   adpAccessToken: ""
 jira:
@@ -14,13 +14,13 @@ jira:
 projectInformation:
   projectName: Mój super nowy projekt
   projectShortName: 1013test
-  buildType: maven
-  testInstance: true
-  preprodInstance: true
+  buildType: gradle
+  testInstance: false
+  preprodInstance: false
   uatInstance: false
 cloudService:
-  awsOrAzure: eks
-  deploymentLocation: aws_ew3
+  awsOrAzure: ""
+  deploymentLocation: ""
   acpOrCRP: ""
   displayName: ""
   version: ""
@@ -51,10 +51,10 @@ cloudService:
   ingressSecurityGroupIds: ""
   customDefinedAutomationAdminRole: ""
 automationService:
-  jenkinsOrGithubActions: jenkins
-  jenkinsWebhook: ""
+  jenkinsOrGithubActions: gheactions
+  jenkinsWebhook: mywebhook.pl
 gheOrganisation:
   organisationName: jarro06
   isNew: false
 testingTools:
-  sonarQube: true
+  sonarQube: false
