@@ -8,7 +8,7 @@ def job_config = [
         name: "1013test_Feature_Build"
     ],
     git: [ 
-        branch: "develop"
+        branch: "feature-1665649016926"
     ]
 ]
 
@@ -153,7 +153,7 @@ job.with {
                 //                        regexpFilter("")
                 //                    }
                 //                }
-                token('I2B6BwxL7IlXCJ429oHH1HpMUGuzi4yG')
+                token('24dr0EPTp54NeL3L7AdaIsgY0litzUvv')
                 printContributedVariables(true)
                 printPostContent(true)
                 silentResponse(false)
